@@ -476,7 +476,6 @@ local Credit  =
 )
 
 --// [Second Page / Commands]
---// Im not fucking changing the variables name for the amount of commands this script has most useless cmds i ever seen jeez
 local cmds =
     SecondPage.AddLabel(
     "Summon! - Start The Stand",
