@@ -2,6 +2,7 @@
 
 https://github.com/ic3w0lf22/Roblox-Account-Manager - For Multiple Roblox Instances
 
+
 Execute On Stand Account:
 
 ```lua
@@ -31,6 +32,7 @@ getgenv().Settings =  {
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/infinityyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/Infinity-Stand/main/Infinity%20Stand"))()
 ```
+
 
 Execute On Main Account:
 
