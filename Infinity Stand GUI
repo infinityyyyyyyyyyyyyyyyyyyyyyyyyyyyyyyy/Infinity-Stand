@@ -485,7 +485,7 @@ local cmds =
 
 local cmds =
     SecondPage.AddLabel(
-    "Stop! - Stops The Stand",
+    "Stop! - Stop The Stand",
     function()
     end
 )
@@ -506,19 +506,19 @@ local cmds =
 
 local cmds =
     SecondPage.AddLabel(
-    "Sky! - Sky Stand Must Be Carrying Some1",
+    "Sky! - Carried Person Is Sent To The Sky",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "Void! - Void Stand Must Be Carrying Some1",
+    "Void! - Carried Person Is Sent To The Void",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "Jail! - Jail Stand Must Be Carrying Some1",
+    "Jail! - Carried Person Is Sent To The Admin Base Jail",
     function()
     end
 )
@@ -674,53 +674,53 @@ local cmds =
 )
 local cmds =
     SecondPage.AddLabel(
-    "To Bank! - Tps You To The Bank",
+    "To Bank! - TPs You To The Bank",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "To Uphill! - Tps You To Uphill",
+    "To Uphill! - TPs You To Uphill",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "To Downhill! - Tps You To Downhill",
-    function()
-    end
-)
-
-local cmds =
-    SecondPage.AddLabel(
-    "To Club! - Tps You To The Club",
+    "To Downhill! - TPs You To Downhill",
     function()
     end
 )
 
 local cmds =
     SecondPage.AddLabel(
-    "To School! - Tps You To The School",
+    "To Club! - TPs You To The Club",
     function()
     end
 )
 
 local cmds =
     SecondPage.AddLabel(
-    "To Casino! - Tps You To The Casino",
-    function()
-    end
-)
-local cmds =
-    SecondPage.AddLabel(
-    "To UFO! - Tps You To The UFO",
+    "To School! - TPs You To The School",
     function()
     end
 )
 
 local cmds =
     SecondPage.AddLabel(
-    "To Park! - Tps You To The Park",
+    "To Casino! - TPs You To The Casino",
+    function()
+    end
+)
+local cmds =
+    SecondPage.AddLabel(
+    "To UFO! - TPs You To The UFO",
+    function()
+    end
+)
+
+local cmds =
+    SecondPage.AddLabel(
+    "To Park! - TPs You To The Park",
     function()
     end
 )
