@@ -27,11 +27,11 @@ getgenv().Settings =  {
     ['CustomSong'] = "SONGIDHERE" -- Enter A Song ID And Say "Song!"
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/infinityyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/infinitystand/main/Infinity%20Stand"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/infinityyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/Infinity-Stand/main/Infinity%20Stand"))()
 ```
 
 Execute On Main Account:
 
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/infinityyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/infinitystand/main/Infinity%20Stand%20GUI"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/infinityyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/Infinity-Stand/main/Infinity%20Stand%20GUI"))()
 ```
