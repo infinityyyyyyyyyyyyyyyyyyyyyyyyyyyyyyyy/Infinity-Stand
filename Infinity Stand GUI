@@ -93,21 +93,21 @@ local Combat =
 
 local b =
     FirstPage.AddLabel(
-    "/e b [plr] - brings a player",
+    "/e b [plr] - Brings A Player",
     function()
     end
 )
 
 local t =
     FirstPage.AddLabel(
-    "/e t [plr] - targets a player",
+    "/e t [plr] - Targets A Player",
     function()
     end
 )
 
 local tt =
     FirstPage.AddLabel(
-    "/e t2 [plr] - loop kills the player",
+    "/e lk [plr] - Loop Kills A Player",
     function()
     end
 )
@@ -287,7 +287,7 @@ local Rejoin =
 
 local Synapse =
     FirstPage.AddButton(
-    "Synapse! [MUST HAVE SYNAPSE]",
+    "Synapse! [Synapse X Only]",
     function()
         Chat('Synapse!')
     end
