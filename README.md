@@ -4,7 +4,7 @@ Execute On Stand Account:
 
 ```lua
 getgenv().Settings =  {
-    --// !Main! \\--
+    --// ! Main ! \\--
     ['Owner'] = 'OWNERUSERNAMEHERE', -- Username Of Owner
     ['Position'] = 'Back', -- Position Of Stand [Back! / Left! / Right!]
     ['Attack'] = 'Heavy!', -- Heavy = Super Punch Light = Spam Punch [Heavy! / Light!]
