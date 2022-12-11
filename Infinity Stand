@@ -72,7 +72,7 @@ if noface == "On" then
 	if game.Players.LocalPlayer.Character.Head:FindFirstChild("face") then
 		game.Players.LocalPlayer.Character.Head.face:Destroy()
 	elseif not game.Players.LocalPlayer.Character.Head:FindFirstChild("face") then
-		print("Already has no face!")
+		print("Already Has No Face!!")
 	end
 end
 
@@ -115,7 +115,7 @@ e.Transparency = 1
 e.Anchored = true
 
 if lowgraphics == "On" then
-	local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+	local decalsyeeted = true -- Boosts FPS.
 	local g = game
 	local w = g.Workspace
 	local l = g.Lighting
