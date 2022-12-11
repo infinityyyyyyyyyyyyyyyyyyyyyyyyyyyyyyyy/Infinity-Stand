@@ -2,7 +2,7 @@
 
 Execute On Stand Account:
 
-```
+```lua
 getgenv().Settings =  {
     --// !Main! \\--
     ['Owner'] = 'OWNERUSERNAMEHERE', -- Username Of Owner
@@ -32,6 +32,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/infinityyyyyyyyyyyyyy
 
 Execute On Main Account:
 
-```
+```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/infinityyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/Infinity-Stand/main/Infinity%20Stand%20GUI"))()
 ```
