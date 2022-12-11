@@ -9,7 +9,7 @@ getgenv().Settings =  {
     ['Position'] = 'Back', -- Position Of Stand [Back! / Left! / Right!]
     ['Attack'] = 'Heavy!', -- Heavy = Super Punch Light = Spam Punch [Heavy! / Light!]
     ['CrewID'] = 'CREWIDHERE', -- Must Be In Group For It To Work 
-    ['SynapseMode'] = 'On', -- [On / Off] Synapse X Only [Makes The Stand Less Buggy!]
+    ['SynapseMode'] = 'Off', -- [On / Off] Synapse X Only [Makes The Stand Less Buggy!]
     ['StandMode'] = 'Star Platinum', -- [Star Platinum / Cream / D4C / CMOON] Stand Sounds And Modes
 
     --// ! Misc ! \\--
