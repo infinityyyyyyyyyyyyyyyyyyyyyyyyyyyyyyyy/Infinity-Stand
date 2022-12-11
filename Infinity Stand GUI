@@ -365,27 +365,27 @@ local ToBank =
     end
 )
 
-local ToBase =
+local ToAdminBase =
     FirstPage.AddButton(
-    "To Base!",
+    "To Admin Base!",
     function()
-        Chat('To Base!')
+        Chat('To Admin Base!')
     end
 )
 
-local ToShop =
+local ToDownhill =
     FirstPage.AddButton(
-    "To Shop!",
+    "To Downhill!",
     function()
-        Chat('To Shop1!')
+        Chat('To Downhill!')
     end
 )
 
-local ToShopp =
+local ToUphill =
     FirstPage.AddButton(
-    "To Shop2!",
+    "To Uphill!",
     function()
-        Chat('To Shop2!')
+        Chat('To Uphill!')
     end
 )
 
@@ -413,11 +413,11 @@ local ToPark =
     end
 )
 
-local ToUfo =
+local ToUFO =
     FirstPage.AddButton(
-    "To Ufo!",
+    "To UFO!",
     function()
-        Chat('To Ufo!')
+        Chat('To UFO!')
     end
 )
 
@@ -449,7 +449,7 @@ local Right =
     FirstPage.AddButton(
     "Right!",
     function()
-		Chat('Right!')
+	Chat('Right!')
     end
 )
 
@@ -499,14 +499,14 @@ local cmds =
 
 local cmds =
     SecondPage.AddLabel(
-    "Drop! - Drop Stand Must Be Carrying Some1",
+    "Drop! - Carried Person Is Dropped ",
     function()
     end
 )
 
 local cmds =
     SecondPage.AddLabel(
-    "Sky! - Sky Stand Must Be Carrying Some1 ",
+    "Sky! - Sky Stand Must Be Carrying Some1",
     function()
     end
 )
@@ -656,7 +656,7 @@ local cmds =
 )
 local cmds =
     SecondPage.AddLabel(
-    "Drop! - Drops 7k",
+    "DropCash! - Drops 7K Cash",
     function()
     end
 )
@@ -668,59 +668,59 @@ local cmds =
 )
 local cmds =
     SecondPage.AddLabel(
-    "Crew! - Leave your Crew",
+    "Crew! - Leave Your Crew",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "To Bank! - Tp You To Bank",
+    "To Bank! - Tps You To The Bank",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "To Shop1! - Tp You To Gun Store 1",
+    "To Uphill! - Tps You To Uphill",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "To Shop2! - Tp You To Gun Store 2",
-    function()
-    end
-)
-
-local cmds =
-    SecondPage.AddLabel(
-    "To Club! - Tp You To Club",
+    "To Downhill! - Tps You To Downhill",
     function()
     end
 )
 
 local cmds =
     SecondPage.AddLabel(
-    "To School! - Tp You To School",
+    "To Club! - Tps You To The Club",
     function()
     end
 )
 
 local cmds =
     SecondPage.AddLabel(
-    "To Casino! - Tp You To Casino",
-    function()
-    end
-)
-local cmds =
-    SecondPage.AddLabel(
-    "To Ufo! - Tp You To Ufo",
+    "To School! - Tps You To The School",
     function()
     end
 )
 
 local cmds =
     SecondPage.AddLabel(
-    "To Park! - Tp You To Park",
+    "To Casino! - Tps You To The Casino",
+    function()
+    end
+)
+local cmds =
+    SecondPage.AddLabel(
+    "To UFO! - Tps You To The UFO",
+    function()
+    end
+)
+
+local cmds =
+    SecondPage.AddLabel(
+    "To Park! - Tps You To The Park",
     function()
     end
 )
