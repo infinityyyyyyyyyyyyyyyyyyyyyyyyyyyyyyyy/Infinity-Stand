@@ -1,6 +1,6 @@
 -- By $ infinity#6261
 -- Script Name: Infinity Stand
--- https://discord.io/legacyx
+-- https://discord.gg/KquqpgMNJD
 
 wait(0.1)
 if not game['Loaded'] or not game:GetService("Players").LocalPlayer then
