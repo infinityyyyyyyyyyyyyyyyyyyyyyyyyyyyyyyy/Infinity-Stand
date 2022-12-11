@@ -1029,7 +1029,7 @@ commands.e = function(arguments)
 			bring = false
 			game.Workspace.Camera.CameraSubject = game.Players.LocalPlayer.Character.Humanoid
 		end
-	elseif CMD == 't2' then
+	elseif CMD == 'lk' then
 		if arguments[2] then
 			local target4 = tostring(findPlayer(arguments[2]))
 			brotagettingkilled = target4
@@ -1275,7 +1275,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 end)
 
 game.Players[StandOwner].Chatted:Connect(function(msg)
-	if msg == ("To Base!") then
+	if msg == ("To Admin Base!") then
 
 		game.ReplicatedStorage.MainEvent:FireServer("LeaveCrew")
 
@@ -1328,7 +1328,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 end)
 
 game.Players[StandOwner].Chatted:Connect(function(msg)
-	if msg == ("To Shop1!") then
+	if msg == ("To Downhill!") then
 
 		game.ReplicatedStorage.MainEvent:FireServer("LeaveCrew")
 
@@ -1381,7 +1381,7 @@ game.Players[StandOwner].Chatted:Connect(function(msg)
 end)
 
 game.Players[StandOwner].Chatted:Connect(function(msg)
-	if msg == ("To Shop2!") then
+	if msg == ("To Uphill!") then
 
 		game.ReplicatedStorage.MainEvent:FireServer("LeaveCrew")
 
