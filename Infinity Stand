@@ -90,7 +90,7 @@ end)
 
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Infinity Stand"; 
-	Text = "Made by $ infinity#6261";
+	Text = "Made By $ infinity#6261";
 	Duration = 30;
 })
 
