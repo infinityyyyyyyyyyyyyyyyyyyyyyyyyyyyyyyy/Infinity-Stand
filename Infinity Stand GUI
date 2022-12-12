@@ -258,7 +258,7 @@ local Misc =
 
 local VanishAppear =
     FirstPage.AddToggle(
-    "Vanish / Appear!",
+    "Vanish! / Appear!",
     false,
     function(bool)
         if bool then
@@ -554,25 +554,25 @@ local cmds =
 )
 local cmds =
     SecondPage.AddLabel(
-    "Hide! - Hides The Stand Name",
+    "Hide! - Hides The Name Of The Stand",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "Requiem! - Gives Stand Godmode",
+    "Requiem! - Gives Stand God-Mode",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "Power! - Gives Stand Reach ",
+    "Power! - Gives Stand Reach",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "Ora! - Kills The Player in Front Of You ",
+    "Ora! - Kills The Player in Front Of You",
     function()
     end
 )
@@ -614,19 +614,19 @@ local cmds =
 )
 local cmds =
     SecondPage.AddLabel(
-    "Vanish! - Stand Disappear",
+    "Vanish! - Make Stand Disappear",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "Appear! - Stand Appear",
+    "Appear! - Make Stand Appear",
     function()
     end
 )
 local cmds =
     SecondPage.AddLabel(
-    "Leave! - Stand Leave The Game",
+    "Leave! - Makes The Stand Leave The Game",
     function()
     end
 )
